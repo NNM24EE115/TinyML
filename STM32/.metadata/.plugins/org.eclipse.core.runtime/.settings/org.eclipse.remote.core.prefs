@@ -1,0 +1,16 @@
+connections/org.eclipse.remote.serial.core.connectionType/Spoorthi/serial.baudRate=11
+connections/org.eclipse.remote.serial.core.connectionType/Spoorthi/serial.byteSize=3
+connections/org.eclipse.remote.serial.core.connectionType/Spoorthi/serial.parity=0
+connections/org.eclipse.remote.serial.core.connectionType/Spoorthi/serial.portName=COM6
+connections/org.eclipse.remote.serial.core.connectionType/Spoorthi/serial.stopBits=0
+connections/org.eclipse.remote.serial.core.connectionType/spoorth/serial.baudRate=11
+connections/org.eclipse.remote.serial.core.connectionType/spoorth/serial.byteSize=3
+connections/org.eclipse.remote.serial.core.connectionType/spoorth/serial.parity=0
+connections/org.eclipse.remote.serial.core.connectionType/spoorth/serial.portName=COM6
+connections/org.eclipse.remote.serial.core.connectionType/spoorth/serial.stopBits=0
+connections/org.eclipse.remote.serial.core.connectionType/spoorthi/serial.baudRate=11
+connections/org.eclipse.remote.serial.core.connectionType/spoorthi/serial.byteSize=3
+connections/org.eclipse.remote.serial.core.connectionType/spoorthi/serial.parity=0
+connections/org.eclipse.remote.serial.core.connectionType/spoorthi/serial.portName=COM6
+connections/org.eclipse.remote.serial.core.connectionType/spoorthi/serial.stopBits=0
+eclipse.preferences.version=1
