@@ -1,0 +1,51 @@
+[
+  {
+    "extract_features": {
+      "input_dimension": {
+        "n_samples": 500,
+        "n_features": 256,
+        "n_channels": 6
+      },
+      "output_dimension": {
+        "n_samples": 500,
+        "n_features": 13,
+        "n_channels": 6
+      },
+      "context": {
+        "_frozen": false,
+        "fft_size": 256
+      },
+      "features": [
+        "var",
+        "psd_fft",
+        "maximum",
+        "n5",
+        "minimum",
+        "shape_factor",
+        "peak_fft",
+        "peak_index_fft",
+        "n25",
+        "skewness",
+        "impulse_factor",
+        "energy_fft",
+        "peak_to_peak"
+      ],
+      "entropy_bins": 20
+    }
+  },
+  {
+    "interleaved": {
+      "input_dimension": {
+        "n_samples": 500,
+        "n_features": 13,
+        "n_channels": 6
+      },
+      "output_dimension": {
+        "n_samples": 500,
+        "n_features": 13,
+        "n_channels": 6
+      },
+      "context": null
+    }
+  }
+]

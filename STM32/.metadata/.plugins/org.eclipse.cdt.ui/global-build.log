@@ -1,14 +1,14 @@
-14:53:07 **** Incremental Build of configuration Debug for project IMU_Acquisition ****
+11:21:53 **** Incremental Build of configuration Debug for project Nano_Acquisition ****
 make -j12 all 
-arm-none-eabi-size  IMU_Acquisition.elf 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L4S5xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Nano_Acquisition.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\tinyML_Workspace\TinyML\STM32\Nano_Acquisition\STM32L4S5VITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Nano_Acquisition.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Nano_Acquisition.elf
+ 
+arm-none-eabi-size  Nano_Acquisition.elf 
+arm-none-eabi-objdump -h -S Nano_Acquisition.elf  > "Nano_Acquisition.list"
    text	   data	    bss	    dec	    hex	filename
-  41828	    468	   2156	  44452	   ada4	IMU_Acquisition.elf
+  42540	    468	   8324	  51332	   c884	Nano_Acquisition.elf
 Finished building: default.size.stdout
  
-14:53:14 **** Incremental Build of configuration Debug for project IMU_Acquisition ****
-make -j12 all 
-arm-none-eabi-size  IMU_Acquisition.elf 
-   text	   data	    bss	    dec	    hex	filename
-  41828	    468	   2156	  44452	   ada4	IMU_Acquisition.elf
-Finished building: default.size.stdout
+Finished building: Nano_Acquisition.list
  
